@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    background-color: #142850;
+}
+
+nav ul {
+    display: flex;
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(165, 165, 223);
+    font-size: 1.01rem;
+}
+
+
+body {
+    background-color: #27496D;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 105px 0;
+    align-items: center;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+
+.leftSection {
+    font-size: 2rem;
+    width: 500px !important;
+    height: 240px;
+    box-sizing: border-box;
+    /* Add any other necessary styles */
+}
+
+.leftSection .btn{
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+    background-color: #142850;
+    cursor: pointer;
+}
+
+.leftSection .btn:hover{
+    font-size: 1.1rem;
+    
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+.purple {
+    color: #FFD700;
+}
+
+#element {
+    color: #FFD700;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    margin-top: 50px;
+   
+    
+}
+
+main hr {
+    border: 0;
+    background-color: #FFD700;
+    height: 1.5px;
+    margin: 125px 50px 50px 50px;
+}
+
+.hr2{
+    border: 0;
+    background-color: #FFD700;
+    height: 1.5px;
+    margin: 100px 50px 100px 50px;
+}
+
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+    text-align: center;
+
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    background-color: white;
+    height: 93px;
+    width: 2px;
+    margin: 0px 160px;
+
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 100px;
+    left: 50pxpx;
+    width: 150px;
+    font-size: 25px;
+
+
+}
+
+.vertical_desc {
+    position: relative;
+    top: 110px;
+    font-size: 15px;
+    color: rgb(205, 198, 198);
+    width: 300px;
+
+}
+
+.image_top {
+    width: 23px;
+    position: relative;
+    top: -30px;
+    left: -9px;
+}
+
+.timeline{
+    font-size: small ;
+}
+
+
+footer{
+    background-color: #1a3043;
+    height: 100px;
+ 
+   
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 90px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+ 
+}
+
+.footer-second ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    list-style-type: none;
+}
+
+
+.links img{
+   width: 20px;
+}
+.footer > div {
+    width: 220px;
+}
+
+.buttons > a{
+    text-decoration: none;
+    font-size: small;
+}
+
+.abo-me {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+ 
+}
+
+.about-me{
+    display: flex;
+    padding: 20px 90px;
+    text-align: center;
+    font-size: large;
+}
+
+.photos-of-about-me{
+    margin-bottom: 175px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.photos-of-about-me img{
+    width: 250px;
+    margin: 50px 60px;
+
+    
+}
+
+.photos-of-about-me a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(183, 173, 68);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: -257px;
+   
+    
+}
+
+.photos-of-about-me a:hover{
+    font-size: 1.7rem;
+  
+}
+
+.edited-by-me1{
+    color: rgb(200, 200, 200);
+    margin: 50px 20px;
+}
+
+.edited-by-me2{
+    color: rgb(200, 200, 200);
+    margin: 50px 145px;
+}
+
+.programming img{
+    width: 150px
+   
+}
+
+.programming{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.hr3{
+    margin-top: 300px !important;
+    
+}
+
+h3{
+    width: 200px;
+}
+
+.twitter{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px !important
+}
+
+.what{
+    text-align: center;
+    margin-left: 94px;
+    font-size: 22px;
+}
+
+
+.copyrights{
+    font-size: 50px !important;
+}
+
+.footer-first img{
+    width: 20px;
+}
+
+.achieve{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.udemy img{
+    padding: 100px;
+    width: 600px;
+    height: 400px ;
+}
+
+.python img{
+    padding: 100px;
+    width: 600px;
+    height: 400px ;
+
+}
+
+.python img:hover{
+   width: 605px;
+   height: 405px;
+
+}
+
+.udemy img:hover{
+    width: 605px;
+    height: 405px;
+ 
+ }
